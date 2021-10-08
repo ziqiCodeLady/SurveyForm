@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<header>
+
+  <h1 id="title">Ocean Beauty Survey Form</h1>
+  <p id="description">Thank you for taking time to help us improve our customer service</p>
+
+</header>
+
+<body>
+
+
+  <form id="survey-form">Survey Form
+    <div class="personInfo">
+      <label for="name" id="name-label">Name</label>
+      <input type="text" name="name" id="name" placeholder="Input your name" required>
+    </div>
+
+    <div class="personInfo">
+      <label for="email" id="email-label">Email</label>
+      <input type="email" name="email" placeholder="Input your email" value="email" required>
+    </div>
+
+    <div class="personInfo">
+      <label for="number" id="number-label">Age</label>
+      <input type="age" name="age" placeholder="Input your age" value="number" required>
+    </div>
+
+    <div class="personInfo">
+      <label for="role-select">Which best describes your current role?</label>
+      <select name="role" id="dropdown" required>
+        <option value="">--Please choose an option--</option>
+        <option value="student">Student</option>
+        <option value="PartTime">Part time job</option>
+        <option value="FullTime">Full time job</option>
+        <option value="Other">Other</option>
+      </select>
+
+    </div>
+
+    <div class="personInfo">
+      <p>Which beauty brand do you like?</p>
+      <input type="radio" id="Channel" name="beauty_brand" value="Channel">
+        <label for="Channel">Channel</label><br>
+        <input type="radio" id="DIOR" name="beauty_brand" value="DIOR">
+        <label for="DIOR">DIOR</label><br>
+        <input type="radio" id="YSL" name="beauty_brand" value="YSL">
+        <label for="YSL">YSL</label>
+    </div>
+
+    <div class="comments">
+      <p>Any comments or suggestions?</p>
+      <textarea id="comments" class="input-textarea" name="comment" placeholder="Enter your comment"></textarea>
+    </div>
+
+
+
+
+  </form>
+</body>
+
+</html>
