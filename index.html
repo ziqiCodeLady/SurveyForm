@@ -1,5 +1,7 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="styles.css">
 
 <header>
 
@@ -14,17 +16,17 @@
   <form id="survey-form">Survey Form
     <div class="personInfo">
       <label for="name" id="name-label">Name</label>
-      <input type="text" name="name" id="name" placeholder="Input your name" required>
+      <input type="text" name="name" id="name" placeholder="Enter your name" required>
     </div>
 
     <div class="personInfo">
       <label for="email" id="email-label">Email</label>
-      <input type="email" name="email" placeholder="Input your email" value="email" required>
+      <input type="email" name="email" placeholder="Enter your email" required>
     </div>
 
     <div class="personInfo">
       <label for="number" id="number-label">Age</label>
-      <input type="age" name="age" placeholder="Input your age" value="number" required>
+      <input type="number" name="age" placeholder="Enter your age" required>
     </div>
 
     <div class="personInfo">
@@ -41,19 +43,46 @@
 
     <div class="personInfo">
       <p>Which beauty brand do you like?</p>
-      <input type="radio" id="Channel" name="beauty_brand" value="Channel">
-        <label for="Channel">Channel</label><br>
-        <input type="radio" id="DIOR" name="beauty_brand" value="DIOR">
-        <label for="DIOR">DIOR</label><br>
-        <input type="radio" id="YSL" name="beauty_brand" value="YSL">
+
+      <input type="checkbox" id="Channel" name="beauty_brand" value="Chanel">
+        <label for="Chanel">CHANEL</label>
+      <br>
+        <input type="checkbox" id="DIOR" name="beauty_brand" value="DIOR">
+        <label for="DIOR">DIOR</label>
+      <br>
+        <input type="checkbox" id="YSL" name="beauty_brand" value="YSL">
         <label for="YSL">YSL</label>
+      <br>
+      <input type="checkbox" id="Lancôme" name="beauty_brand" value="Lancôme">
+        <label for="Lancôme">Lancôme</label>
+      <br>
+      <input type="checkbox" id="Clinique" name="beauty_brand" value="Clinique">
+        <label for="Clinique">Clinique</label>
     </div>
+
+    <fieldset>
+      <legend>Would you like to recommend us to your friends?:</legend>
+
+      <input type="radio" id="definetely" name="recommend">
+      <label for="Definetely">Definetely</label><br>
+
+
+      <input type="radio" id="maybe" name="recommend">
+      <label for="Maybe">Maybe</label><br>
+
+      <input type="radio" id="not-sure" name="recommend">
+      <label for="not-sure">Not Sure</label><br>
+    </fieldset>
+
 
     <div class="comments">
       <p>Any comments or suggestions?</p>
-      <textarea id="comments" class="input-textarea" name="comment" placeholder="Enter your comment"></textarea>
+      <textarea id="comments" class="input-textarea" name="comment" placeholder="Enter your comment here."></textarea>
     </div>
 
+    <div>
+      <input type="submit" value="Submit" id="submit">
+    </div>
 
 
 

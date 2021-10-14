@@ -1,0 +1,25 @@
+body {
+  font-family: 'Ubuntu', sans-serif;
+}
+
+header {
+  background-image: url("https://i.pinimg.com/originals/9f/60/7c/9f607cfe235f74439137d49e70b4205c.jpg");
+  position: fixed;
+  width: 100%;
+  height: auto;
+  top: 0;
+  text-align: center;
+
+}
+
+h1{
+  font-size: 24px;
+}
+
+#survey-form {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  padding: 40px;
+  margin: 0 auto;
+}
