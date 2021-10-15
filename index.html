@@ -15,21 +15,25 @@
 
   <form id="survey-form">Survey Form
     <div class="personInfo">
-      <label for="name" id="name-label">Name</label>
+      <label for="name" id="name-label">Name:</label>
       <input type="text" name="name" id="name" placeholder="Enter your name" required>
     </div>
 
+    <br>
+
     <div class="personInfo">
-      <label for="email" id="email-label">Email</label>
+      <label for="email" id="email-label">Email:</label>
       <input type="email" id="email" placeholder="Enter your email" required>
     </div>
 
+<br>
     <div class="personInfo">
-      <label for="number" id="number-label">Age</label>
-      <input type="number" id="number" placeholder="Enter your age" min="18" max="50" required>
+      <label for="number" id="number-label">Age:</label>
+      <input type="number" id="number" placeholder="Your Age " min="18" max="50"  required>
     </div>
 
-    <div class="personInfo">
+<br>
+    <div class="userRole">
       <label for="role-select">Which best describes your current role?</label>
       <select name="role" id="dropdown" required>
         <option value="">--Please choose an option--</option>
@@ -41,7 +45,7 @@
 
     </div>
 
-    <div class="personInfo">
+    <div class="beautyBrand">
       <p>Which beauty brand do you like?</p>
 
       <input type="checkbox" id="Channel" name="beauty_brand" value="Chanel">
@@ -60,7 +64,7 @@
       <label for="Clinique">Clinique</label>
     </div>
 
-    <fieldset>
+    <fieldset class="recommendation">
       <legend>Would you like to recommend us to your friends?:</legend>
 
       <input type="radio" id="definetely" name="recommend" value="Definetely">
