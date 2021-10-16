@@ -15,7 +15,7 @@
     <fieldset class="personInfo">
       <legend>Personal Information</legend>
 
-      <div class="personal-info">
+      <div class="personal-info" id="survey-group">
         <label for="name" id="name-label">Name:</label>
         <input type="text" name="name" id="name" placeholder="Enter your name" required>
         <br>
@@ -30,6 +30,43 @@
     </fieldset>
 
 
+
+
+    <fieldset class="recommendation">
+      <legend>Which beauty brand do you like?</legend>
+      <div id="survey-group">
+        <input type="checkbox" id="Channel" name="beauty_brand" value="Chanel">
+        <label for="Chanel">CHANEL</label>
+        <br>
+          <input type="checkbox" id="DIOR" name="beauty_brand" value="DIOR">
+          <label for="DIOR">DIOR</label>
+        <br>
+          <input type="checkbox" id="YSL" name="beauty_brand" value="YSL">
+          <label for="YSL">YSL</label>
+        <br>
+        <input type="checkbox" id="Lancôme" name="beauty_brand" value="Lancôme">
+          <label for="Lancôme">Lancôme</label>
+        <br>
+        <input type="checkbox" id="Clinique" name="beauty_brand" value="Clinique">
+        <label for="Clinique">Clinique</label>
+      </div>
+    </fieldset>
+
+    <fieldset class="recommendation">
+      <legend>Would you like to recommend us to your friends?:</legend>
+
+      <div id="survey-group">
+        <input type="radio" id="definetely" name="recommend" value="Definetely">
+        <label for="Definetely">Definetely</label><br>
+
+        <input type="radio" id="maybe" name="recommend" value="Maybe">
+        <label for="Maybe">Maybe</label><br>
+
+        <input type="radio" id="not-sure" name="recommend" value="Not Sure">
+        <label for="not-sure">Not Sure</label><br>
+      </div>
+    </fieldset>
+
     <div class="userRole">
       <label for="role-select">Which best describes your current role?</label>
       <select name="role" id="dropdown" required>
@@ -41,40 +78,6 @@
       </select>
 
     </div>
-
-    <fieldset class="recommendation">
-      <legend>Which beauty brand do you like?</legend>
-
-      <input type="checkbox" id="Channel" name="beauty_brand" value="Chanel">
-      <label for="Chanel">CHANEL</label>
-      <br>
-        <input type="checkbox" id="DIOR" name="beauty_brand" value="DIOR">
-        <label for="DIOR">DIOR</label>
-      <br>
-        <input type="checkbox" id="YSL" name="beauty_brand" value="YSL">
-        <label for="YSL">YSL</label>
-      <br>
-      <input type="checkbox" id="Lancôme" name="beauty_brand" value="Lancôme">
-        <label for="Lancôme">Lancôme</label>
-      <br>
-      <input type="checkbox" id="Clinique" name="beauty_brand" value="Clinique">
-      <label for="Clinique">Clinique</label>
-    </fieldset>
-
-    <fieldset class="recommendation">
-      <legend>Would you like to recommend us to your friends?:</legend>
-
-      <input type="radio" id="definetely" name="recommend" value="Definetely">
-      <label for="Definetely">Definetely</label><br>
-
-
-      <input type="radio" id="maybe" name="recommend" value="Maybe">
-      <label for="Maybe">Maybe</label><br>
-
-      <input type="radio" id="not-sure" name="recommend" value="Not Sure">
-      <label for="not-sure">Not Sure</label><br>
-    </fieldset>
-
 
     <div class="comments">
       <p>Any comments or suggestions?</p>

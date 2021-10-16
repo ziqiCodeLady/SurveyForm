@@ -19,6 +19,7 @@ fieldset {
   border-right: 1px solid #666;
   border-bottom: 1px solid #666;
   border-radius: 15px;
+
 }
 
 legend {
@@ -46,8 +47,20 @@ input[type='number']{
     width: 100px;
 }
 
+#survey-group {
+  text-align: left;
+  padding:10px;
+  line-height: 2;
+  font-size: 18px;
+
+}
+
+.userRole {
+  padding-bottom: 25px;
+  margin-bottom: 10px;
 
 
+}
 
 #comments {
   width: 400px;
