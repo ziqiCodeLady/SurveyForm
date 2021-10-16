@@ -5,31 +5,31 @@
 
 <body>
 
-   <header>
-     <h1 id="title">Ocean Beauty Survey Form</h1>
-     <p id="description">Thank you for taking time to help us improve our customer service</p>
-   </header>
+  <header>
+    <h1 id="title">Ocean Beauty Survey Form</h1>
+    <p id="description">Thank you for taking time to help us improve our customer service</p>
+  </header>
 
-  <form id="survey-form" >
-    <div class="personInfo">
-      <label for="name" id="name-label">Name:</label>
-      <input type="text" name="name" id="name" placeholder="Enter your name" required>
-    </div>
+  <form id="surveyForm" class="container">
 
-    <br>
+    <fieldset class="personInfo">
+      <legend>Personal Information</legend>
 
-    <div class="personInfo">
-      <label for="email" id="email-label">Email:</label>
-      <input type="email" id="email" placeholder="Enter your email" required>
-    </div>
+      <div class="personal-info">
+        <label for="name" id="name-label">Name:</label>
+        <input type="text" name="name" id="name" placeholder="Enter your name" required>
+        <br>
 
-<br>
-    <div class="personInfo">
-      <label for="number" id="number-label">Age:</label>
-      <input type="number" id="number" placeholder="Your Age " min="18" max="50"  required>
-    </div>
+        <label for="email" id="email-label">Email:</label>
+        <input type="email" id="email" placeholder="Enter your email" required>
+        <br>
+        <label for="number" id="number-label">Age:</label>
+        <input type="number" id="number" placeholder="Your Age " min="18" max="100" required>
+      </div>
 
-<br>
+    </fieldset>
+
+
     <div class="userRole">
       <label for="role-select">Which best describes your current role?</label>
       <select name="role" id="dropdown" required>
@@ -42,8 +42,8 @@
 
     </div>
 
-    <div class="beautyBrand">
-      <p>Which beauty brand do you like?</p>
+    <fieldset class="recommendation">
+      <legend>Which beauty brand do you like?</legend>
 
       <input type="checkbox" id="Channel" name="beauty_brand" value="Chanel">
       <label for="Chanel">CHANEL</label>
@@ -59,7 +59,7 @@
       <br>
       <input type="checkbox" id="Clinique" name="beauty_brand" value="Clinique">
       <label for="Clinique">Clinique</label>
-    </div>
+    </fieldset>
 
     <fieldset class="recommendation">
       <legend>Would you like to recommend us to your friends?:</legend>
@@ -84,8 +84,6 @@
     <div>
       <input type="submit" value="Submit" id="submit">
     </div>
-
-
 
   </form>
 
