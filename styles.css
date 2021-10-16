@@ -10,7 +10,24 @@ body {
   margin: 50px auto;
   padding: 30px 20px;
   box-shadow: 2px 5px 10px;
+  border-radius: 10px;
+}
+
+fieldset {
+  margin-bottom: 50px;
+  border: 1px solid #888;
+  border-right: 1px solid #666;
+  border-bottom: 1px solid #666;
   border-radius: 15px;
+}
+
+legend {
+  font-weight: bold;
+  border: 1px solid #888;
+  border-right: 1px solid #666;
+  border-bottom: 1px solid #666;
+  padding: 0.5em;
+  background-color: #F3F1F5;
 }
 
 header {
@@ -27,4 +44,13 @@ h1{
 
 input[type='number']{
     width: 100px;
+}
+
+
+
+
+#comments {
+  width: 400px;
+  height: 100px;
+
 }
