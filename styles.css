@@ -1,6 +1,12 @@
 body {
-  font-family: 'Ubuntu', sans-serif;
+  font-family: 'Poppins', sans-serif;
   background-image: linear-gradient(#e68bbe, #f4b8da);
+  color: #54233F;
+}
+
+header {
+  color: #54233F;
+  font-family: 'Poppins', sans-serif;
 }
 
 #survey-form {
