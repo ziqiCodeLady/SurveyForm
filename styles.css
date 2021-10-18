@@ -7,6 +7,7 @@ body {
 header {
   color: #54233F;
   font-family: 'Poppins', sans-serif;
+  text-align: center;
 }
 
 #survey-form {
@@ -25,7 +26,6 @@ fieldset {
   border-right: 1px solid #666;
   border-bottom: 1px solid #666;
   border-radius: 15px;
-
 }
 
 legend {
@@ -38,39 +38,34 @@ legend {
   background-color: #F3F1F5;
 }
 
-header {
-
-  text-align: center;
-
+h1 {
+  font-size: 32px;
+  font-weight: bolder;
 }
 
-h1{
-  font-size: 24px;
+#description {
+  font-size: 22px;
 }
 
-
-
-input[type='number']{
-    width: 100px;
+.personal_info {
+  float: left;
+  width: 100%;
 }
 
 #survey-group {
   text-align: left;
-  padding:10px;
+  padding: 10px;
   line-height: 2;
   font-size: 18px;
-
+  display: block;
 }
 
 .userRole {
   padding-bottom: 25px;
   margin-bottom: 10px;
-
-
 }
 
 #comments {
   width: 400px;
   height: 100px;
-
 }
